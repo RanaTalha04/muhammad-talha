@@ -28,14 +28,15 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        'service_ltjo5lh',
-        'template_whhb25x',
+        'service_35l4zvu',
+        'template_4bbdqll',
         {
-          from_name: formData.name,
+          name: formData.name,
           from_email: formData.email,
           message: formData.message,
+          time: new Date().toLocaleString()
         },
-        '2WyX8kGZveLJGiwx'
+        '2WyX8kGZveLJGiwx_'
       );
 
       toast({
@@ -59,7 +60,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      description: "muhammadtalhashahid2005@gmail.com",
+      description: "Send Email",
       action: "mailto:muhammadtalhashahid2005@gmail.com",
       color: "data-primary"
     },
@@ -221,16 +222,7 @@ const Contact = () => {
           </div>
 
           {/* Primary CTA */}
-          <div className="text-center mt-12">
-            <Button 
-              size="lg"
-              className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-12 py-6"
-              onClick={() => window.open('mailto:muhammadtalhashahid2005@gmail.com', '_blank')}
-            >
-              Start a Conversation
-              <ArrowRight className="ml-2" size={20} />
-            </Button>
-          </div>
+          
         </div>
       </div>
     </section>

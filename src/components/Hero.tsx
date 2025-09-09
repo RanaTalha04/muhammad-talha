@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, BarChart3 } from "lucide-react";
-const profilePhoto = "https://iili.io/KxD0H74.png";
+const profilePhoto = "https://iili.io/KxD48Hx.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {

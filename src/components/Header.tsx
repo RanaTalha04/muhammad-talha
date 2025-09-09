@@ -51,13 +51,13 @@ const Header = () => {
 
           {/* Desktop Social Links */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" size="icon" className="hover:text-primary">
+            <Button variant="ghost" size="icon" className="hover:text-primary" onClick={() => window.open('mailto:muhammadtalhashahid2005@gmail.com', '_blank')}>
               <Mail size={18} />
             </Button>
-            <Button variant="ghost" size="icon" className="hover:text-primary">
+            <Button variant="ghost" size="icon" className="hover:text-primary" onClick={() => window.open('https://github.com/RanaTalha04', '_blank')}>
               <Github size={18} />
             </Button>
-            <Button variant="ghost" size="icon" className="hover:text-primary">
+            <Button variant="ghost" size="icon" className="hover:text-primary" onClick={() => window.open('https://www.linkedin.com/in/muhammadtaalhaa/', '_blank')}>
               <Linkedin size={18} />
             </Button>
           </div>
@@ -102,13 +102,13 @@ const Header = () => {
                 Contact
               </button>
               <div className="flex items-center space-x-4 pt-2">
-                <Button variant="ghost" size="icon" className="hover:text-primary">
+                <Button variant="ghost" size="icon" className="hover:text-primary" onClick={() => window.open('mailto:muhammadtalhashahid2005@gmail.com', '_blank')}>
                   <Mail size={18} />
                 </Button>
-                <Button variant="ghost" size="icon" className="hover:text-primary">
+                <Button variant="ghost" size="icon" className="hover:text-primary" onClick={() => window.open('https://github.com/RanaTalha04', '_blank')}>
                   <Github size={18} />
                 </Button>
-                <Button variant="ghost" size="icon" className="hover:text-primary">
+                <Button variant="ghost" size="icon" className="hover:text-primary" onClick={() => window.open('https://www.linkedin.com/in/muhammadtaalhaa/', '_blank')}>
                   <Linkedin size={18} />
                 </Button>
               </div>

@@ -6,22 +6,22 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      description: "muhammadtalha@example.com",
-      action: "mailto:muhammadtalha@example.com",
+      description: "muhammadtalhashahid2005@gmail.com",
+      action: "mailto:muhammadtalhashahid2005@gmail.com",
       color: "data-primary"
     },
     {
       icon: Linkedin,
       title: "LinkedIn",
       description: "Connect professionally",
-      action: "https://linkedin.com/in/muhammadtalha",
+      action: "https://www.linkedin.com/in/muhammadtaalhaa/",
       color: "data-secondary"
     },
     {
       icon: Github,
       title: "GitHub",
       description: "View my repositories",
-      action: "https://github.com/muhammadtalha",
+      action: "https://github.com/RanaTalha04",
       color: "data-tertiary"
     }
   ];
@@ -100,7 +100,7 @@ const Contact = () => {
             <Button 
               size="lg"
               className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-12 py-6"
-              onClick={() => window.open('mailto:muhammadtalha@example.com', '_blank')}
+              onClick={() => window.open('mailto:muhammadtalhashahid2005@gmail.com', '_blank')}
             >
               Start a Conversation
               <ArrowRight className="ml-2" size={20} />

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, BarChart3 } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
+const profilePhoto = "https://iili.io/KxD0H74.png";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -27,7 +27,7 @@ const Hero = () => {
               </h1>
               
               <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">
-                📊 Creating Dashboards, Reports, and Analytics to <span className="text-accent font-semibold">Unlock Business Value</span>
+                Creating Dashboards, Reports, and Analytics to <span className="text-accent font-semibold">Unlock Business Value</span>
               </p>
             </div>
 
@@ -85,7 +85,7 @@ const Hero = () => {
               </div>
               
               <div className="absolute -bottom-4 -left-4 bg-gradient-card p-3 rounded-lg shadow-card animate-pulse delay-1000">
-                <div className="text-data-secondary font-bold text-lg">📈</div>
+                <BarChart3 className="text-data-secondary" size={24} />
               </div>
             </div>
           </div>

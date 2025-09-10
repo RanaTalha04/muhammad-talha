@@ -40,11 +40,11 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I am <span className="text-primary font-semibold">Muhammad Talha</span> — a Data Analyst passionate about transforming raw data into meaningful insights. I specialize in building intuitive dashboards and reports that simplify complex information and empower smarter decision-making.
+                I am <span className="text-primary font-semibold">Muhammad Talha</span> — a Data Analyst passionate about transforming raw data into meaningful insights.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Beyond coding, I focus on delivering solutions that are <span className="text-accent font-semibold">clear, impactful, and purposeful</span>. My approach combines technical expertise with business understanding to create analytics that truly drive value.
+                Beyond coding, I focus on delivering solutions that are <span className="text-accent font-semibold">clear, impactful, and purposeful</span>.
               </p>
 
               <div className="flex items-center space-x-4 pt-4">

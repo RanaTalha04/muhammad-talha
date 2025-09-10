@@ -6,7 +6,7 @@ const Skills = () => {
       title: "Programming & Data",
       icon: Code,
       color: "data-primary",
-      skills: ["Python", "C/C++", "SQL (MySQL, PostgreSQL)", "HTML", "CSS"]
+      skills: ["Python", "SQL (MySQL, PostgreSQL)", "C/C++", "HTML", "CSS"]
     },
     {
       title: "Data Processing & Visualization",

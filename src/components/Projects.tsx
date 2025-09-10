@@ -6,6 +6,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Sales Dashboard",
+      url: "https://github.com/RanaTalha04/Sales-Dashboard",
       platform: "Tableau",
       role: "Designer & Developer",
       tools: ["Tableau", "Python", "Data Cleaning", "Data Visualization"],
@@ -36,6 +37,7 @@ const Projects = () => {
     },
     {
       title: "AI-based Educational Analysis",
+      url: "https://github.com/RanaTalha04/Artificial-Intelligence-K-Means-Naive-Base-",
       platform: "K-Means & Naive Bayes",
       role: "ML Researcher",
       tools: ["Python", "Scikit-learn"],
@@ -73,13 +75,20 @@ const Projects = () => {
                   <CardContent className="p-8">
                     {/* Project Header */}
                     <div className="flex items-start justify-between mb-6">
-                      <div className={`w-14 h-14 bg-gradient-to-br ${project.gradient} rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
-                        <IconComponent size={28} className={`text-${project.color}`} />
+                        <div className={`w-14 h-14 bg-gradient-to-br ${project.gradient} rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
+                          <IconComponent size={28} className={`text-${project.color}`} />
+                        </div>
+                        {project.url && (
+                          <Button
+                            variant="ghost"
+                            size="icon"
+                            className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                            onClick={() => window.open(project.url, "_blank")}
+                          >
+                            <ExternalLink size={18} />
+                          </Button>
+                        )}
                       </div>
-                      <Button variant="ghost" size="icon" className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <ExternalLink size={18} />
-                      </Button>
-                    </div>
 
                     {/* Project Info */}
                     <div className="space-y-4">
@@ -94,18 +103,8 @@ const Projects = () => {
 
                       <p className="text-muted-foreground leading-relaxed">{project.description}</p>
 
-                      {/* Tools */}
-                      <div className="flex flex-wrap gap-2">
-                        {project.tools.map((tool, toolIndex) => (
-                          <span 
-                            key={toolIndex}
-                            className="px-3 py-1 bg-secondary text-secondary-foreground text-xs rounded-full border border-border"
-                          >
-                            {tool}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
+                      {/* Tools */} <div className="flex flex-wrap gap-2"> {project.tools.map((tool, toolIndex) => ( <span key={toolIndex} className="px-3 py-1 bg-secondary text-secondary-foreground text-xs rounded-full border border-border" > {tool} </span> ))} </div> </div>
+
 
                     {/* Hover Overlay */}
                     <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-5 transition-opacity duration-500 pointer-events-none"></div>

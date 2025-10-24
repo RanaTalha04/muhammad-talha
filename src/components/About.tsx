@@ -72,11 +72,11 @@ const About = () => {
                 </div>
                 <div className="grid grid-cols-2 gap-4 mt-6 pt-6 border-t border-border">
                   <div className="text-center">
-                    <div className="text-xl font-bold text-data-secondary">5+</div>
+                    <div className="text-xl font-bold text-data-secondary">2+</div>
                     <div className="text-xs text-muted-foreground">ML Projects Completed</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-xl font-bold text-data-accent">3</div>
+                    <div className="text-xl font-bold text-data-accent">1</div>
                     <div className="text-xs text-muted-foreground">Models Deployed</div>
                   </div>
                 </div>

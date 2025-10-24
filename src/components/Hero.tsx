@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, BarChart3 } from "lucide-react";
+import { ArrowRight, Brain, Rocket } from "lucide-react";
 const profilePhoto = "https://iili.io/KxD48Hx.jpg";
 
 const Hero = () => {
@@ -18,16 +18,22 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <div className="inline-flex items-center space-x-2 bg-secondary px-4 py-2 rounded-full text-sm">
-                <BarChart3 size={16} className="text-primary" />
-                <span>Data Analyst | Computer Science Student</span>
+                <Brain size={16} className="text-primary" />
+                <span>Machine Learning Developer | Data Analyst</span>
               </div>
-              
+
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
                 Muhammad <span className="bg-gradient-primary bg-clip-text text-transparent">Talha</span>
               </h1>
-              
+
               <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">
-                Creating Dashboards, Reports, and Analytics to <span className="text-accent font-semibold">Unlock Business Value</span>
+                Building <span className="text-accent font-semibold">AI-powered</span> and 
+                <span className="text-primary font-semibold"> data-driven</span> solutions that turn ideas into intelligent systems.
+              </p>
+
+              <p className="text-lg text-muted-foreground">
+                Passionate about <span className="text-primary font-semibold">machine learning, model deployment,</span> 
+                and transforming raw data into actionable insights.
               </p>
             </div>
 
@@ -57,7 +63,7 @@ const Hero = () => {
             <div className="flex items-center space-x-8 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-data-secondary rounded-full animate-pulse"></div>
-                <span>Available for opportunities</span>
+                <span>Available for ML/AI opportunities</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-data-accent rounded-full"></div>
@@ -73,19 +79,19 @@ const Hero = () => {
               <div className="relative w-80 h-80 lg:w-96 lg:h-96">
                 <img 
                   src={profilePhoto}
-                  alt="Muhammad Talha - Data Analyst"
+                  alt="Muhammad Talha - Machine Learning Developer"
                   className="w-full h-full object-cover rounded-full border-4 border-border shadow-card hover:shadow-glow transition-all duration-500"
                 />
                 <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
               </div>
-              
+
               {/* Floating Data Elements */}
               <div className="absolute -top-4 -right-4 bg-gradient-card p-3 rounded-lg shadow-card animate-pulse">
-                <BarChart3 className="text-data-primary" size={24} />
+                <Brain className="text-data-primary" size={24} />
               </div>
               
               <div className="absolute -bottom-4 -left-4 bg-gradient-card p-3 rounded-lg shadow-card animate-pulse delay-1000">
-                <BarChart3 className="text-data-secondary" size={24} />
+                <Rocket className="text-data-secondary" size={24} />
               </div>
             </div>
           </div>

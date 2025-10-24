@@ -1,26 +1,26 @@
-import { TrendingUp, Users, Target, Lightbulb } from "lucide-react";
+import { Brain, LineChart, BarChart3, Rocket } from "lucide-react";
 
 const About = () => {
   const highlights = [
     {
-      icon: TrendingUp,
-      title: "Data-Driven Insights",
-      description: "Transform complex data into clear, actionable insights"
+      icon: Brain,
+      title: "Machine Learning",
+      description: "Design and train predictive models to solve real-world problems using Python and ML algorithms."
     },
     {
-      icon: Users,
-      title: "Decision Support",
-      description: "Empower teams with intuitive dashboards and reports"
+      icon: LineChart,
+      title: "Data Analysis",
+      description: "Clean, visualize, and interpret datasets to uncover insights and trends that drive decisions."
     },
     {
-      icon: Target,
-      title: "Business Focus",
-      description: "Deliver solutions that drive real business value"
+      icon: BarChart3,
+      title: "Model Deployment",
+      description: "Deploy interactive ML apps using Streamlit and integrate with real-world datasets."
     },
     {
-      icon: Lightbulb,
-      title: "Innovation",
-      description: "Apply cutting-edge analytics to solve problems"
+      icon: Rocket,
+      title: "Continuous Learning",
+      description: "Always exploring new techniques — from ensemble learning to deep learning and AI applications."
     }
   ];
 
@@ -40,11 +40,15 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I am <span className="text-primary font-semibold">Muhammad Talha</span> — a Data Analyst passionate about transforming raw data into meaningful insights.
+                I’m <span className="text-primary font-semibold">Muhammad Talha</span> — a Machine Learning & Data Analysis enthusiast passionate about transforming raw data into smart, data-driven solutions.
               </p>
-              
+
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Beyond coding, I focus on delivering solutions that are <span className="text-accent font-semibold">clear, impactful, and purposeful</span>.
+                I love building <span className="text-accent font-semibold">end-to-end ML projects</span> — from data preprocessing and feature engineering to training, tuning, and deployment.
+              </p>
+
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                My focus is on creating models and applications that are not only <span className="text-primary font-semibold">accurate</span> but also <span className="text-accent font-semibold">impactful</span> and practical for real-world use.
               </p>
 
               <div className="flex items-center space-x-4 pt-4">
@@ -54,25 +58,26 @@ const About = () => {
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-data-secondary rounded-full"></div>
-                  <span className="text-sm">Data Enthusiast</span>
+                  <span className="text-sm">Machine Learning Developer</span>
                 </div>
               </div>
             </div>
 
+            {/* Right Side Stats */}
             <div className="relative">
               <div className="bg-gradient-card p-8 rounded-2xl shadow-card border border-border">
                 <div className="text-center space-y-4">
-                  <div className="text-3xl font-bold text-primary">160K+</div>
-                  <div className="text-sm text-muted-foreground">Subtitles Processed</div>
+                  <div className="text-3xl font-bold text-primary">92%</div>
+                  <div className="text-sm text-muted-foreground">Model Accuracy Achieved</div>
                 </div>
                 <div className="grid grid-cols-2 gap-4 mt-6 pt-6 border-t border-border">
                   <div className="text-center">
-                    <div className="text-xl font-bold text-data-secondary">81%</div>
-                    <div className="text-xs text-muted-foreground">ML Accuracy</div>
+                    <div className="text-xl font-bold text-data-secondary">5+</div>
+                    <div className="text-xs text-muted-foreground">ML Projects Completed</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-xl font-bold text-data-accent">57</div>
-                    <div className="text-xs text-muted-foreground">BLEU Score</div>
+                    <div className="text-xl font-bold text-data-accent">3</div>
+                    <div className="text-xs text-muted-foreground">Models Deployed</div>
                   </div>
                 </div>
               </div>
@@ -84,7 +89,7 @@ const About = () => {
             {highlights.map((highlight, index) => {
               const IconComponent = highlight.icon;
               return (
-                <div 
+                <div
                   key={index}
                   className="bg-gradient-card p-6 rounded-xl shadow-card border border-border hover:shadow-glow hover:scale-105 transition-all duration-300 group"
                 >

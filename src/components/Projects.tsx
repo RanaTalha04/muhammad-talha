@@ -27,6 +27,7 @@ const Projects = () => {
     },
     {
       title: "Urdu-to-English Machine Translation",
+      url: "https://github.com/RanaTalha04/Urdu-English-NLP-Translation",
       platform: "NLP",
       role: "NLP Engineer", 
       tools: ["M2M100", "Python"],

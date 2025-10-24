@@ -52,7 +52,9 @@ export default {
           secondary: "hsl(var(--data-secondary))",
           tertiary: "hsl(var(--data-tertiary))",
           accent: "hsl(var(--data-accent))",
+          ml: "hsl(var(--data-ml))",
         },
+
       },
       backgroundImage: {
         'gradient-primary': 'var(--gradient-primary)',

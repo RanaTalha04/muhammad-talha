@@ -11,33 +11,33 @@ interface BlogPost {
 }
 
 const blogPosts: BlogPost[] = [
-    {
-        id: 1,
-        title: "Predicting Obesity Risk Using Machine Learning",
-        summary:
-            "A complete walkthrough of building and deploying a model using Pakistani health data — including preprocessing, training, evaluation, and Streamlit deployment.",
-        date: "October 25, 2025",
-        link: "https://medium.com/@muhammadtalha/obesity-ml-project",
-        tags: ["Machine Learning", "Health Data", "Streamlit"],
-    },
-    {
-        id: 2,
-        title: "Understanding Ensemble Learning in ML",
-        summary:
-            "An easy explanation of Bagging, Boosting, and Stacking with examples and when to use each approach.",
-        date: "October 28, 2025",
-        link: "/blog/ensemble-learning",
-        tags: ["Ensemble Learning", "XGBoost", "Random Forest"],
-    },
-    {
-        id: 3,
-        title: "PCA Explained Simply (with Visuals)",
-        summary:
-            "A visual guide to understanding Principal Component Analysis (PCA) — theory, intuition, and code examples.",
-        date: "November 1, 2025",
-        link: "/blog/pca-explained",
-        tags: ["Dimensionality Reduction", "PCA", "Visualization"],
-    },
+    // {
+    //     id: 1,
+    //     title: "Predicting Obesity Risk Using Machine Learning",
+    //     summary:
+    //         "A complete walkthrough of building and deploying a model using Pakistani health data — including preprocessing, training, evaluation, and Streamlit deployment.",
+    //     date: "October 25, 2025",
+    //     link: "https://medium.com/@muhammadtalha/obesity-ml-project",
+    //     tags: ["Machine Learning", "Health Data", "Streamlit"],
+    // },
+    // {
+    //     id: 2,
+    //     title: "Understanding Ensemble Learning in ML",
+    //     summary:
+    //         "An easy explanation of Bagging, Boosting, and Stacking with examples and when to use each approach.",
+    //     date: "October 28, 2025",
+    //     link: "/blog/ensemble-learning",
+    //     tags: ["Ensemble Learning", "XGBoost", "Random Forest"],
+    // },
+    // {
+    //     id: 3,
+    //     title: "PCA Explained Simply (with Visuals)",
+    //     summary:
+    //         "A visual guide to understanding Principal Component Analysis (PCA) — theory, intuition, and code examples.",
+    //     date: "November 1, 2025",
+    //     link: "/blog/pca-explained",
+    //     tags: ["Dimensionality Reduction", "PCA", "Visualization"],
+    // },
 ];
 
 export default function Blog() {
@@ -85,7 +85,7 @@ export default function Blog() {
                             <div className="flex items-center justify-between mt-auto">
                                 <p className="text-xs text-muted-foreground">{post.date}</p>
                                 <a
-                                    href={post.link}
+                                    // href={post.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center text-primary hover:underline text-sm"

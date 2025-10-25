@@ -5,7 +5,7 @@ const About = () => {
     {
       icon: Brain,
       title: "Machine Learning",
-      description: "Design and train predictive models to solve real-world problems using Python and ML algorithms."
+      description: "Design and train models to solve real-world problems using Python and ML algorithms."
     },
     {
       icon: LineChart,
@@ -20,7 +20,7 @@ const About = () => {
     {
       icon: Rocket,
       title: "Continuous Learning",
-      description: "Always exploring new techniques — from ensemble learning to deep learning and AI applications."
+      description: "Always exploring new techniques — from machine learning to deep learning and AI applications."
     }
   ];
 

@@ -1,9 +1,21 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, BarChart3, Brain, Languages, GraduationCap } from "lucide-react";
+import { ExternalLink, BarChart3, Brain, Languages, GraduationCap, HeartPulse} from "lucide-react";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Heart Disease Prediction using Machine Learning",
+      url: "https://github.com/RanaTalha04/Heart_Disease_Prediction",
+      platform: "Machine Learning",
+      role: "ML Engineer",
+      tools: ["Python", "Scikit-learn", "Pandas" , "Data Cleaning", "Streamlit"],
+      description:
+        "Developed a predictive model to assess heart disease risk using health parameters. Compared multiple models (Logistic Regression, SVM, KNN) and deployed a user-friendly Streamlit app for real-time prediction.",
+      icon: HeartPulse,
+      color: "data-ml",
+      gradient: "from-data-ml/20 to-data-ml/5",
+    },
     {
       title: "Sales Dashboard",
       url: "https://github.com/RanaTalha04/Sales-Dashboard",
@@ -19,7 +31,7 @@ const Projects = () => {
       title: "Sentiment Analysis on Pakistani Drama Subtitles",
       platform: "NLP",
       role: "Data Scientist",
-      tools: ["DistilBERT", "M2M100", "Python"],
+      tools: ["DistilBERT", "M2M100", "Python", "Pytorch", "Google Colab"],
       description: "Processed 160K+ subtitles and labeled 73K+ sentences in English and Urdu. Developed sentiment models achieving 81% accuracy (English) and 80% (Urdu).",
       icon: Brain,
       color: "data-secondary",
@@ -30,7 +42,7 @@ const Projects = () => {
       url: "https://github.com/RanaTalha04/Urdu-English-NLP-Translation",
       platform: "NLP",
       role: "NLP Engineer", 
-      tools: ["M2M100", "Python"],
+      tools: ["M2M100", "Python", "Pytorch", "Google Colab"],
       description: "Implemented a translation pipeline using Facebook's M2M100. Trained on 160K+ subtitles, achieving a BLEU score of 57, ensuring high-quality translations.",
       icon: Languages,
       color: "data-tertiary",

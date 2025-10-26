@@ -20,15 +20,15 @@ const blogPosts: BlogPost[] = [
     //     link: "https://medium.com/@muhammadtalha/obesity-ml-project",
     //     tags: ["Machine Learning", "Health Data", "Streamlit"],
     // },
-    // {
-    //     id: 2,
-    //     title: "Understanding Ensemble Learning in ML",
-    //     summary:
-    //         "An easy explanation of Bagging, Boosting, and Stacking with examples and when to use each approach.",
-    //     date: "October 28, 2025",
-    //     link: "/blog/ensemble-learning",
-    //     tags: ["Ensemble Learning", "XGBoost", "Random Forest"],
-    // },
+    {
+        id: 1,
+        title: "Understanding Ensemble Learning in ML",
+        summary:
+            "An easy explanation of Bagging, Boosting, and Stacking with examples and code snippets and when to use each approach.",
+        date: "October 25, 2025",
+        link: "https://medium.com/@muhammadtalhashahid/understanding-ensemble-learning-in-ml-a-beginners-guide-c9b744e880df",
+        tags: ["Ensemble Learning", "XGBoost", "Random Forest", 'Stacking'],
+    },
     // {
     //     id: 3,
     //     title: "PCA Explained Simply (with Visuals)",
@@ -85,7 +85,7 @@ export default function Blog() {
                             <div className="flex items-center justify-between mt-auto">
                                 <p className="text-xs text-muted-foreground">{post.date}</p>
                                 <a
-                                    // href={post.link}
+                                    href={post.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center text-primary hover:underline text-sm"

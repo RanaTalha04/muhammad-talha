@@ -13,11 +13,6 @@ const Header = () => {
     }
   };
 
-  const goToBlog = () => {
-    window.location.href = "/blog"; // or use react-router: navigate("/blog")
-    setIsMenuOpen(false);
-  };
-
   return (
     <header className="fixed top-0 w-full bg-background/80 backdrop-blur-md border-b border-border z-50">
       <div className="container mx-auto px-6 py-4">
@@ -50,7 +45,7 @@ const Header = () => {
               Skills
             </button>
             <button
-              onClick={() => scrollToSection("blog")}
+              onClick={() => scrollToSection("contact")}
               className="text-muted-foreground hover:text-primary transition-smooth"
             >
               Contact
@@ -128,7 +123,7 @@ const Header = () => {
                 Skills
               </button>
               <button
-                onClick={goToBlog}
+                onClick={() => scrollToSection("contact")}
                 className="text-left text-muted-foreground hover:text-primary transition-smooth"
               >
                 Contact

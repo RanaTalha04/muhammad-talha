@@ -12,10 +12,10 @@ const Skills = () => {
       title: "Machine Learning & AI",
       icon: Brain,
       color: "data-ml",
-      skills: ["Scikit-learn", "NLTK", "Feature Engineering", "Model Evaluation"]
+      skills: ["Scikit-learn", "Streamlit", "FastAPI", "Joblib"]
     },
     {
-      title: "Data Processing & Visualization",
+      title: "Data Processing",
       icon: Database,
       color: "data-secondary", 
       skills: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Tableau", "Excel", "Web Scraping"]
@@ -24,7 +24,7 @@ const Skills = () => {
       title: "Tools & Platforms",
       icon: Wrench,
       color: "data-tertiary",
-      skills: ["Git", "GitHub", "VS Code", "Jupyter Notebook", "Google Colab", "Kaggle", "SQL Server"]
+      skills: ["Git", "GitHub", "Docker", "VS Code", "Jupyter Notebook", "Google Colab", "Kaggle", "SQL Server"]
     },
   ];
 

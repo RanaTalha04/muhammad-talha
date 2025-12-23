@@ -53,12 +53,6 @@ const Header = () => {
               onClick={() => scrollToSection("blog")}
               className="text-muted-foreground hover:text-primary transition-smooth"
             >
-              Blog
-            </button>
-            <button
-              onClick={() => scrollToSection("contact")}
-              className="text-muted-foreground hover:text-primary transition-smooth"
-            >
               Contact
             </button>
           </nav>
@@ -135,12 +129,6 @@ const Header = () => {
               </button>
               <button
                 onClick={goToBlog}
-                className="text-left text-muted-foreground hover:text-primary transition-smooth"
-              >
-                Blog
-              </button>
-              <button
-                onClick={() => scrollToSection("contact")}
                 className="text-left text-muted-foreground hover:text-primary transition-smooth"
               >
                 Contact

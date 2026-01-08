@@ -13,13 +13,13 @@ import { url } from "inspector";
 const Projects = () => {
   const projects = [
     {
-      title: "Heart Disease Prediction",
-      url:"https://github.com/RanaTalha04/Heart_Disease_Prediction",
+      title: "Clinical Risk Classification System",
+      url: "https://github.com/RanaTalha04/Heart_Disease_Prediction",
       platform: "Machine Learning",
       role: "ML Engineer",
       tools: ["Python", "Scikit-learn", "Pandas", "NumPy", "Seaborn"],
       description:
-        "Developed and evaluated classification models to predict heart disease using clinical features such as age, cholesterol, and blood pressure. Compared Logistic Regression, Random Forest, and SVM models, achieving up to 87% accuracy with feature selection, scaling, and cross-validation.",
+        "Developed a supervised learning pipeline to classify cardiovascular risk using clinical features such as age, cholesterol, and blood pressure. Implemented data preprocessing, feature scaling, and model evaluation using Logistic Regression, Random Forest, and SVM, with ensemble methods showing the strongest overall performance through cross-validation.",
       icon: HeartPulse,
       color: "data-ml",
       gradient: "from-data-ml/20 to-data-ml/5",
@@ -37,7 +37,7 @@ const Projects = () => {
     },
     {
       title: "Insurance Premium Category Predictor",
-      url:"https://github.com/RanaTalha04/Insurance_premium_category_predictor",
+      url: "https://github.com/RanaTalha04/Insurance_premium_category_predictor",
       platform: "FastAPI & ML",
       role: "ML Engineer",
       tools: ["Python", "Scikit-learn", "FastAPI", "Docker", "Pydantic"],

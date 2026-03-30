@@ -40,7 +40,7 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I’m <span className="text-primary font-semibold">Muhammad Talha</span> — a Machine Learning enthusiast, passionate about transforming raw data into smart, data-driven solutions.
+                I’m <span className="text-primary font-semibold">Muhammad Talha</span> — a Machine Learning enthusiast, passionate about transforming data into smart, data-driven solutions.
               </p>
 
               <p className="text-lg text-muted-foreground leading-relaxed">

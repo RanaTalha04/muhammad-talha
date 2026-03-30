@@ -33,7 +33,7 @@ const Hero = () => {
 
               <p className="text-lg text-muted-foreground">
                 Passionate about <span className="text-primary font-semibold">machine learning, model deployment,</span> 
-                and transforming raw data into actionable insights.
+                and transforming data into actionable insights.
               </p>
             </div>
 

@@ -80,7 +80,7 @@ const Hero = () => {
                 <img 
                   src={profilePhoto}
                   alt="Muhammad Talha - Machine Learning Developer"
-                  className="w-full h-full object-cover rounded-full border-4 border-border shadow-card hover:shadow-glow transition-all duration-500"
+                  className="w-full h-full object-[center_20%] object-cover rounded-full border-4 border-border shadow-card hover:shadow-glow transition-all duration-500"
                 />
                 <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
               </div>

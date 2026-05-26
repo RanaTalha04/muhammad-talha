@@ -8,7 +8,7 @@ import {
   GraduationCap,
   HeartPulse,
 } from "lucide-react";
-import { url } from "inspector";
+
 
 const Projects = () => {
   const projects = [

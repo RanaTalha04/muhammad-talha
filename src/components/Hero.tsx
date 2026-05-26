@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Brain, Rocket } from "lucide-react";
-const profilePhoto = "https://iili.io/KxD48Hx.jpg";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {

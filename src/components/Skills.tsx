@@ -12,7 +12,7 @@ const Skills = () => {
       title: "Machine Learning & AI",
       icon: Brain,
       color: "data-ml",
-      skills: ["Scikit-learn", "PyTorch", "Streamlit", "FastAPI", "Joblib", "NLP"]
+      skills: ["Computer Vision", "Scikit-learn", "PyTorch", "Streamlit", "FastAPI", "Joblib", "NLP"]
     },
     {
       title: "Data Processing",

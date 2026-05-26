@@ -20,7 +20,7 @@ const About = () => {
     {
       icon: Rocket,
       title: "Continuous Learning",
-      description: "Always exploring new techniques — from machine learning to deep learning and AI applications."
+      description: "Always exploring new techniques  from machine learning to deep learning and AI applications."
     }
   ];
 
@@ -40,15 +40,11 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I’m <span className="text-primary font-semibold">Muhammad Talha</span> — a Machine Learning enthusiast, passionate about transforming data into smart, data-driven solutions.
+                I’m <span className="text-primary font-semibold">Muhammad Talha</span> -- a Machine Learning enthusiast, passionate about transforming data into smart, data-driven solutions.
               </p>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I love building <span className="text-accent font-semibold">end-to-end ML projects</span> — from data preprocessing and feature engineering to training, tuning, and deployment.
-              </p>
-
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                My focus is on creating models and applications that are not only <span className="text-primary font-semibold">accurate</span> but also <span className="text-accent font-semibold">impactful</span> and practical for real-world use.
+                I love building <span className="text-accent font-semibold">end-to-end ML projects</span> -- from data preprocessing and feature engineering to training, tuning, and deployment.
               </p>
 
               <div className="flex items-center space-x-4 pt-4">
@@ -72,7 +68,7 @@ const About = () => {
                 </div>
                 <div className="grid grid-cols-2 gap-4 mt-6 pt-6 border-t border-border">
                   <div className="text-center">
-                    <div className="text-xl font-bold text-data-secondary">2+</div>
+                    <div className="text-xl font-bold text-data-secondary">3+</div>
                     <div className="text-xs text-muted-foreground">ML Projects Completed</div>
                   </div>
                   <div className="text-center">

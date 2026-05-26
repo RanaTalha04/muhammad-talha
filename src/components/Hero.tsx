@@ -19,7 +19,7 @@ const Hero = () => {
             <div className="space-y-4">
               <div className="inline-flex items-center space-x-2 bg-secondary px-4 py-2 rounded-full text-sm">
                 <Brain size={16} className="text-primary" />
-                <span>Machine Learning Developer | Data Analyst</span>
+                <span>Machine Learning Developer | Data Scientist</span>
               </div>
 
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
@@ -27,13 +27,12 @@ const Hero = () => {
               </h1>
 
               <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">
-                Building <span className="text-accent font-semibold">AI-powered</span> and 
-                <span className="text-primary font-semibold"> data-driven</span> solutions that turn ideas into intelligent systems.
+                Building <span className="text-accent font-semibold">AI-powered</span> solutions that turn ideas into intelligent systems.
               </p>
 
               <p className="text-lg text-muted-foreground">
                 Passionate about <span className="text-primary font-semibold">machine learning, model deployment,</span> 
-                and transforming data into actionable insights.
+                and transforming data.
               </p>
             </div>
 
@@ -63,7 +62,7 @@ const Hero = () => {
             <div className="flex items-center space-x-8 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-data-secondary rounded-full animate-pulse"></div>
-                <span>Available for ML/AI opportunities</span>
+                <span>Available for AI/ML opportunities</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-data-accent rounded-full"></div>

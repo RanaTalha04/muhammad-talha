@@ -49,27 +49,6 @@ export const projects: Project[] = [
     gradient: "from-data-ml/20 to-data-ml/5",
   },
   {
-    slug: "cricketer-performance-prediction",
-    title: "Cricketer Performance Prediction",
-    platform: "Machine Learning",
-    role: "ML Engineer",
-    tools: ["Python", "Scikit-learn", "Pandas", "NumPy"],
-    description:
-      "End-to-end ML pipeline using ball-by-ball cricket data to predict player performance.",
-    longDescription:
-      "Built an end-to-end ML pipeline using ball-by-ball cricket data to predict player performance. Performed data cleaning and feature engineering, trained regression models (Decision Tree, Random Forest, Gradient Boosting), achieving best RMSE of 1.74, and explored a classification task for next-ball wicket prediction.",
-    highlights: [
-      "Best RMSE of 1.74 with Gradient Boosting",
-      "Feature engineering on ball-by-ball data",
-      "Explored classification for next-ball wicket prediction",
-    ],
-    status: "completed",
-    featured: true,
-    icon: BarChart3,
-    color: "data-primary",
-    gradient: "from-data-primary/20 to-data-primary/5",
-  },
-  {
     slug: "insurance-premium-predictor",
     title: "Insurance Premium Category Predictor",
     url: "https://github.com/RanaTalha04/Insurance_premium_category_predictor",

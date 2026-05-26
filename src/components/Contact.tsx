@@ -91,7 +91,7 @@ const Contact = () => {
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               I'm open to internships, freelance projects, and data-focused job opportunities. 
-              Whether you're looking for collaboration, problem-solving, or creative insights from data — 
+              Whether you're looking for collaboration, problem-solving, or creative insights from data --
               I'd love to connect and contribute.
             </p>
             <div className="w-24 h-1 bg-gradient-primary mx-auto mt-6"></div>

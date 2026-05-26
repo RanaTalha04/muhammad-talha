@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex items-center space-x-2 text-sm text-muted-foreground">
             <span>© 2025 Muhammad Talha</span>
             <span>•</span>
-            <span>Data Analyst & Computer Science Student</span>
+            <span>Data Scientist & Machine Learning</span>
           </div>
           
         </div>

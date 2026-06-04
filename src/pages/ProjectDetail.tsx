@@ -65,6 +65,29 @@ const ProjectDetail = () => {
                 </span>
               </div>
 
+              {project.screenshots && project.screenshots.length > 0 && (
+                <div className="mb-8 space-y-4">
+                  <img
+                    src={project.screenshots[0]}
+                    alt={`${project.title} screenshot`}
+                    className="w-full h-[320px] rounded-3xl object-cover border border-border"
+                    loading="lazy"
+                  />
+                  {project.screenshots.length > 1 && (
+                    <div className="grid grid-cols-2 gap-4">
+                      {project.screenshots.slice(1).map((screenshot) => (
+                        <img
+                          key={screenshot}
+                          src={screenshot}
+                          alt={`${project.title} screenshot`}
+                          className="w-full h-40 rounded-2xl object-cover border border-border"
+                          loading="lazy"
+                        />
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
               <div className="mb-8">
                 <h2 className="text-xl font-semibold mb-3">Overview</h2>
                 <p className="text-muted-foreground leading-relaxed">

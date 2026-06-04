@@ -37,7 +37,17 @@ const Projects = () => {
                   className="group bg-gradient-card border-border hover:shadow-glow hover:scale-[1.02] transition-all duration-500 overflow-hidden cursor-pointer"
                 >
                   <CardContent className="p-8">
-                    <div className="flex items-start justify-between mb-6">
+                {project.screenshots?.[0] && (
+                  <div className="mb-6 overflow-hidden rounded-3xl bg-secondary">
+                    <img
+                      src={project.screenshots[0]}
+                      alt={`${project.title} screenshot`}
+                      className="w-full h-40 object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                )}
+                <div className="flex items-start justify-between mb-6">
                       <div
                         className={`w-14 h-14 bg-gradient-to-br ${project.gradient} rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}
                       >

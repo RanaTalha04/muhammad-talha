@@ -26,30 +26,15 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <button
-              onClick={() => scrollToSection("about")}
-              className="text-muted-foreground hover:text-primary transition-smooth"
-            >
-              About
-            </button>
-            <button
-              onClick={() => scrollToSection("projects")}
-              className="text-muted-foreground hover:text-primary transition-smooth"
-            >
-              Projects
-            </button>
-            <button
-              onClick={() => scrollToSection("skills")}
-              className="text-muted-foreground hover:text-primary transition-smooth"
-            >
-              Skills
-            </button>
-            <button
-              onClick={() => scrollToSection("contact")}
-              className="text-muted-foreground hover:text-primary transition-smooth"
-            >
-              Contact
-            </button>
+            {["about", "experience", "projects", "skills", "resume", "contact"].map((id) => (
+              <button
+                key={id}
+                onClick={() => scrollToSection(id)}
+                className="text-muted-foreground hover:text-primary transition-smooth capitalize"
+              >
+                {id}
+              </button>
+            ))}
           </nav>
 
           {/* Desktop Social Links */}

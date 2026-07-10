@@ -3,17 +3,17 @@ import { Briefcase, Calendar, CheckCircle2 } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      role: "Machine Learning Intern / Data Science Trainee",
-      company: "ML1 (Machine Learning 1)",
+      role: "Data Science Trainee",
+      company: "Machine Learning 1",
       duration: "1 Month",
       description: [
-        "Worked on real-world machine learning projects.",
+        "Worked on Heart Disease Predictions project.",
         "Performed data preprocessing, feature engineering, and exploratory data analysis.",
-        "Built and evaluated machine learning models using Scikit-learn.",
-        "Collaborated using Git and GitHub for version control.",
+        "Built and evaluated different machine learning models using Scikit-learn.",
+        "Collaborated using Git for version control.",
         "Improved understanding of the complete ML workflow from data preparation to model evaluation.",
       ],
-      technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Git", "GitHub"],
+      technologies: ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
     },
   ];
 

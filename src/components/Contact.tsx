@@ -90,9 +90,7 @@ const Contact = () => {
               Get in <span className="bg-gradient-primary bg-clip-text text-transparent">Touch</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              I'm open to internships, freelance projects, and data-focused job opportunities. 
-              Whether you're looking for collaboration, problem-solving, or creative insights from data --
-              I'd love to connect and contribute.
+              I'm looking for entry-level roles, freelance projects, or data-focused projects. If you need help solving a problem, sorting out messy data, or just want to collaborate, let's connect and chat!
             </p>
             <div className="w-24 h-1 bg-gradient-primary mx-auto mt-6"></div>
           </div>

@@ -107,7 +107,7 @@ const Projects = () => {
           {/* Call to Action */}
           <div className="text-center mt-16">
             <p className="text-muted-foreground mb-6">
-              Interested in seeing more projects or discussing collaboration?
+              Interested in collaboration?
             </p>
             <Button
               variant="outline"

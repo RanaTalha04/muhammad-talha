@@ -3,13 +3,13 @@ import { Code, Database, Wrench, Brain, Users } from "lucide-react";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Programming & Data",
+      title: "Programming",
       icon: Code,
       color: "data-primary",
       skills: ["Python", "SQL (MySQL, PostgreSQL)", "C/C++", "HTML", "CSS"]
     },
     {
-      title: "Machine Learning & AI",
+      title: "Machine Learning",
       icon: Brain,
       color: "data-ml",
       skills: ["Computer Vision", "Scikit-learn", "PyTorch", "Streamlit", "FastAPI", "Joblib", "NLP"]
@@ -21,10 +21,10 @@ const Skills = () => {
       skills: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Tableau", "Excel", "Web Scraping"]
     },
     {
-      title: "Tools & Platforms",
+      title: "Tools ",
       icon: Wrench,
       color: "data-tertiary",
-      skills: ["Git", "GitHub", "Docker", "VS Code", "Jupyter Notebook", "Google Colab", "Kaggle", "SQL Server"]
+      skills: ["Git", "Docker", "VS Code", "Jupyter Notebook", "Google Colab", "Kaggle", "SQL Server"]
     },
   ];
 
@@ -37,7 +37,7 @@ const Skills = () => {
               Technical <span className="bg-gradient-primary bg-clip-text text-transparent">Skills</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              A comprehensive toolkit for data science, machine learning, and software development
+              A toolkit for data science, machine learning, and software development
             </p>
             <div className="w-24 h-1 bg-gradient-primary mx-auto mt-6"></div>
           </div>

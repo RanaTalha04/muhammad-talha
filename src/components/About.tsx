@@ -40,21 +40,21 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I’m <span className="text-primary font-semibold">Muhammad Talha</span> -- a Machine Learning enthusiast, passionate about transforming data into smart, data-driven solutions.
+                Hi! I’m <span className="text-primary font-semibold">Muhammad Talha</span>. I am a Machine Learning enthusiast who loves transforming raw data into smart, real-world solutions.
               </p>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I love building <span className="text-accent font-semibold">end-to-end ML projects</span> -- from data preprocessing and feature engineering to training, tuning, and deployment.
+                From cleaning and engineering features to training and deploying models, I enjoy building projects from the ground up.
               </p>
 
               <div className="flex items-center space-x-4 pt-4">
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-data-primary rounded-full"></div>
-                  <span className="text-sm">Computer Science Student</span>
+                  <span className="text-sm">CS Graduate</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-data-secondary rounded-full"></div>
-                  <span className="text-sm">Machine Learning Engineering</span>
+                  <span className="text-sm">ML Engineer</span>
                 </div>
               </div>
             </div>

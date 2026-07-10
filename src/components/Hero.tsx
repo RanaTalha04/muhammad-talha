@@ -27,12 +27,7 @@ const Hero = () => {
               </h1>
 
               <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">
-                Building <span className="text-accent font-semibold">AI-powered</span> solutions that turn ideas into intelligent systems.
-              </p>
-
-              <p className="text-lg text-muted-foreground">
-                Passionate about <span className="text-primary font-semibold">machine learning, model deployment,</span> 
-                and transforming data.
+                Machine Learning Engineer specializing in Python, Scikit-learn, FastAPI, SQL, and AI-powered applications.
               </p>
             </div>
 
@@ -72,14 +67,14 @@ const Hero = () => {
           {/* Right Side - Profile Photo */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative group">
-              <div className="absolute -inset-4 bg-gradient-primary rounded-full opacity-15 blur-2xl group-hover:opacity-30 transition-opacity duration-500"></div>
+              <div className="absolute -inset-4 bg-gradient-primary rounded-full opacity-15 blur-2xl group-hover:opacity-15 transition-opacity duration-500"></div>
               <div className="relative w-80 h-80 lg:w-96 lg:h-96">
                 <img 
                   src={profilePhoto}
                   alt="Muhammad Talha - Machine Learning Developer"
                   className="w-full h-full object-[center_20%] object-cover rounded-full border-4 border-border shadow-card hover:shadow-glow transition-all duration-500"
                 />
-                <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-0 group-hover:opacity-5 transition-opacity duration-500"></div>
               </div>
 
               {/* Floating Data Elements */}

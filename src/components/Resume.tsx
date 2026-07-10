@@ -32,9 +32,9 @@ const Resume = () => {
               <FileText size={48} className="text-background" />
             </div>
 
-            <h3 className="text-2xl font-bold text-foreground mb-3">Muhammad Talha — Resume</h3>
+            <h3 className="text-2xl font-bold text-foreground mb-3">Muhammad Talha Resume</h3>
             <p className="text-muted-foreground mb-8 max-w-lg mx-auto">
-              A complete overview of my journey as a Machine Learning Engineer and Data Science practitioner.
+              A complete overview of my journey as a Machine Learning Engineer and Data Scientist.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
@@ -42,9 +42,9 @@ const Resume = () => {
                 asChild
                 className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-base px-8 py-6"
               >
-                <a href={RESUME_URL} download>
+                <a href={"/resumes/Muhammad_Talha_Resume.pdf"} download>
                   <Download className="mr-2" size={18} />
-                  Download Resume
+                  Download PDF
                 </a>
               </Button>
               <Button
@@ -52,9 +52,9 @@ const Resume = () => {
                 variant="outline"
                 className="border-border hover:border-primary transition-smooth text-base px-8 py-6"
               >
-                <a href={RESUME_URL} target="_blank" rel="noopener noreferrer">
+                <a href={"/resumes/Muhammad_Talha_Resume.pdf"} target="_blank" rel="noopener noreferrer">
                   <Eye className="mr-2" size={18} />
-                  View Resume
+                  View Online
                 </a>
               </Button>
             </div>

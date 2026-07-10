@@ -42,6 +42,7 @@ const Header = () => {
             <Button
               variant="ghost"
               size="icon"
+              aria-label="Email Muhammad Talha"
               className="hover:text-primary"
               onClick={() =>
                 window.open("mailto:muhammadtalhashahid2005@gmail.com", "_blank")
@@ -52,6 +53,7 @@ const Header = () => {
             <Button
               variant="ghost"
               size="icon"
+              aria-label="GitHub profile"
               className="hover:text-primary"
               onClick={() =>
                 window.open("https://github.com/RanaTalha04", "_blank")
@@ -62,6 +64,7 @@ const Header = () => {
             <Button
               variant="ghost"
               size="icon"
+              aria-label="LinkedIn profile"
               className="hover:text-primary"
               onClick={() =>
                 window.open(
@@ -78,6 +81,8 @@ const Header = () => {
           <Button
             variant="ghost"
             size="icon"
+            aria-label="Toggle navigation menu"
+            aria-expanded={isMenuOpen}
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -104,6 +109,7 @@ const Header = () => {
                 <Button
                   variant="ghost"
                   size="icon"
+                  aria-label="Email Muhammad Talha"
                   className="hover:text-primary"
                   onClick={() =>
                     window.open(
@@ -117,6 +123,7 @@ const Header = () => {
                 <Button
                   variant="ghost"
                   size="icon"
+                  aria-label="GitHub profile"
                   className="hover:text-primary"
                   onClick={() =>
                     window.open("https://github.com/RanaTalha04", "_blank")
@@ -127,6 +134,7 @@ const Header = () => {
                 <Button
                   variant="ghost"
                   size="icon"
+                  aria-label="LinkedIn profile"
                   className="hover:text-primary"
                   onClick={() =>
                     window.open(

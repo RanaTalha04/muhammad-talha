@@ -1,0 +1,16 @@
+# Muhammad Talha
+
+> Portfolio of Muhammad Talha — Machine Learning Engineer and Computer Science student building ML pipelines, NLP systems, and data-driven applications with Python, Scikit-learn, and FastAPI.
+
+## Pages
+- [Home](/): About, experience, featured projects, skills, and contact.
+- [All Projects](/projects): Complete list of completed and in-progress work.
+
+## Projects
+- [Clinical Risk Classification System](/projects/clinical-risk-classification): Supervised ML pipeline classifying cardiovascular risk from clinical features.
+- [Next-Gen AI Desktop Assistant](/projects/next-gen-ai-desktop-assistant): Offline voice-and-text desktop assistant built with Vosk, NLTK, and PySide6.
+- [Cricketer Performance Analysis](/projects/cricket-performance-analysis): End-to-end ML predicting a batsman's expected runs from Cricsheet data.
+- [Insurance Premium Category Predictor](/projects/insurance-premium-predictor): FastAPI + Docker inference service for Random Forest premium prediction.
+- [Sentiment Analysis on Pakistani Drama Subtitles](/projects/sentiment-analysis-pakistani-dramas): Multilingual sentiment models on 160K+ Urdu/English subtitles.
+- [Urdu-to-English Machine Translation](/projects/urdu-english-translation): M2M100 translation pipeline reaching BLEU 57 on subtitle corpus.
+- [Task Management Application](/projects/task-management-application): FastAPI REST backend with JWT auth and PostgreSQL.

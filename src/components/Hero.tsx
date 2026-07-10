@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Brain, Rocket } from "lucide-react";
+import { ArrowRight, Brain, Rocket, Download } from "lucide-react";
 import profilePhoto from "@/assets/profile-photo.jpg";
 
 const Hero = () => {

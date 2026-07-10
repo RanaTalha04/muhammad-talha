@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, ArrowRight } from "lucide-react";
@@ -14,6 +15,23 @@ const AllProjects = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>All Projects — Muhammad Talha</title>
+        <meta
+          name="description"
+          content="Complete list of Muhammad Talha's completed and in-progress machine learning, NLP, and data science projects."
+        />
+        <link rel="canonical" href="https://muhammad-talha.lovable.app/projects" />
+        <meta property="og:title" content="All Projects — Muhammad Talha" />
+        <meta property="og:description" content="Machine learning, NLP, and data science projects by Muhammad Talha." />
+        <meta property="og:url" content="https://muhammad-talha.lovable.app/projects" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "All Projects — Muhammad Talha",
+          "url": "https://muhammad-talha.lovable.app/projects",
+        })}</script>
+      </Helmet>
       <div className="container mx-auto px-6 py-16">
         <div className="max-w-6xl mx-auto">
           <Button asChild variant="ghost" className="mb-8">
@@ -75,7 +93,7 @@ const AllProjects = () => {
                           {project.status === "working" ? "In Progress" : "Completed"}
                         </span>
                       </div>
-                      <h3 className="text-lg font-bold mb-2">{project.title}</h3>
+                      <h2 className="text-lg font-bold mb-2">{project.title}</h2>
                       <p className="text-sm text-muted-foreground mb-4 line-clamp-3">
                         {project.description}
                       </p>

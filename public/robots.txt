@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://muhammad-talha.lovable.app/sitemap.xml

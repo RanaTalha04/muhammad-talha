@@ -15,7 +15,7 @@ const Footer = () => {
         
         <div className="mt-4 pt-4 border-t border-border text-center">
           <p className="text-xs text-muted-foreground">
-            Transforming data into insights • Passionate about analytics • Always learning
+           Designed and Developed by Muhammad Talha
           </p>
         </div>
       </div>

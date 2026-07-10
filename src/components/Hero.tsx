@@ -19,7 +19,7 @@ const Hero = () => {
             <div className="space-y-4">
               <div className="inline-flex items-center space-x-2 bg-secondary px-4 py-2 rounded-full text-sm">
                 <Brain size={16} className="text-primary" />
-                <span>Machine Learning Developer | Data Scientist</span>
+                <span>Machine Learning Engineer | Data Scientist</span>
               </div>
 
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
@@ -74,7 +74,7 @@ const Hero = () => {
           {/* Right Side - Profile Photo */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative group">
-              <div className="absolute -inset-4 bg-gradient-primary rounded-full opacity-20 blur-2xl group-hover:opacity-30 transition-opacity duration-500"></div>
+              <div className="absolute -inset-4 bg-gradient-primary rounded-full opacity-15 blur-2xl group-hover:opacity-30 transition-opacity duration-500"></div>
               <div className="relative w-80 h-80 lg:w-96 lg:h-96">
                 <img 
                   src={profilePhoto}

@@ -20,7 +20,6 @@ export interface Project {
   description: string;
   longDescription?: string;
   highlights?: string[];
-  screenshots?: string[];
   status: ProjectStatus;
   featured?: boolean;
   icon: LucideIcon;
@@ -45,7 +44,6 @@ export const projects: Project[] = [
       "Compared Logistic Regression, Random Forest, and SVM",
       "Ensemble methods delivered strongest cross-validated performance",
     ],
-    screenshots: ["/Cardiovescular_disease_prediction.png"],
     status: "completed",
     featured: true,
     icon: HeartPulse,
@@ -68,7 +66,6 @@ export const projects: Project[] = [
       "Data preprocessing and feature scaling pipeline",
       "Compared Logistic Regression, Random Forest, and SVM",
     ],
-    // screenshots: ["/placeholder.svg"],
     status: "completed",
     featured: false,
     icon: Trophy,
@@ -91,7 +88,6 @@ export const projects: Project[] = [
       "Containerized with Docker, published to Docker Hub",
       "Validated request/response schemas with Pydantic",
     ],
-    // screenshots: ["/placeholder.svg"],
     status: "completed",
     featured: true,
     icon: Brain,
@@ -122,7 +118,6 @@ export const projects: Project[] = [
       "81% accuracy (English), 80% (Urdu)",
       "Pipeline combining DistilBERT + M2M100",
     ],
-    screenshots: ["/Bilingual_sentimental.png"],
     status: "completed",
     featured: true,
     icon: Brain,
@@ -146,7 +141,6 @@ export const projects: Project[] = [
       "Fine-tuned M2M100 on subtitle corpus",
       "Trained on Google Colab GPU runtime",
     ],
-    screenshots: ["/NLP_Translation.png"],
     status: "completed",
     featured: true,
     icon: Languages,
@@ -170,7 +164,6 @@ export const projects: Project[] = [
       "Create, read, update, and delete tasks",
       "API documentation with Swagger UI",
     ],
-    // screenshots: ["/placeholder.svg"],
     status: "completed",
     featured: false,
     icon: Clipboard,
@@ -204,7 +197,6 @@ export const projects: Project[] = [
       "Dual input mode: voice via Vosk and text via PySide6 GUI",
       "Modular three-layer architecture: UI, Core Processing, Output",
     ],
-    // screenshots: ["/placeholder.svg"],
     status: "completed",
     featured: true,
     icon: BarChart3,

@@ -87,7 +87,7 @@ const Contact = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              Let's <span className="bg-gradient-primary bg-clip-text text-transparent">Connect</span>
+              Get in <span className="bg-gradient-primary bg-clip-text text-transparent">Touch</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               I'm open to internships, freelance projects, and data-focused job opportunities. 

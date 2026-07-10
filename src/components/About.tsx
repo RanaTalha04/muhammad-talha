@@ -54,7 +54,7 @@ const About = () => {
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-data-secondary rounded-full"></div>
-                  <span className="text-sm">Machine Learning Developer</span>
+                  <span className="text-sm">Machine Learning Engineering</span>
                 </div>
               </div>
             </div>
@@ -63,13 +63,13 @@ const About = () => {
             <div className="relative">
               <div className="bg-gradient-card p-8 rounded-2xl shadow-card border border-border">
                 <div className="text-center space-y-4">
-                  <div className="text-3xl font-bold text-primary">92%</div>
-                  <div className="text-sm text-muted-foreground">Model Accuracy Achieved</div>
+                  <div className="text-3xl font-bold text-primary">5+</div>
+                  <div className="text-sm text-muted-foreground">Project Completed</div>
                 </div>
                 <div className="grid grid-cols-2 gap-4 mt-6 pt-6 border-t border-border">
                   <div className="text-center">
-                    <div className="text-xl font-bold text-data-secondary">3+</div>
-                    <div className="text-xs text-muted-foreground">ML Projects Completed</div>
+                    <div className="text-xl font-bold text-data-secondary">3</div>
+                    <div className="text-xs text-muted-foreground">ML Pipeline Built</div>
                   </div>
                   <div className="text-center">
                     <div className="text-xl font-bold text-data-accent">1</div>

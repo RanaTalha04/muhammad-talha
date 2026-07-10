@@ -45,17 +45,15 @@ const Hero = () => {
                 <ArrowRight className="ml-2" size={20} />
               </Button>
               
-              <Button 
-                variant="outline" 
+              <Button
+                asChild
+                variant="outline"
                 className="border-border hover:border-primary transition-smooth text-lg px-8 py-6"
-                onClick={() => {
-                  const element = document.getElementById('projects');
-                  if (element) {
-                    element.scrollIntoView({ behavior: 'smooth' });
-                  }
-                }}
               >
-                View Projects
+                <a href="#" download>
+                  <Download className="mr-2" size={20} />
+                  Download Resume
+                </a>
               </Button>
             </div>
 

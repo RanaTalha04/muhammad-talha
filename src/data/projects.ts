@@ -25,6 +25,7 @@ export interface Project {
   icon: LucideIcon;
   color: string;
   gradient: string;
+  screenshots?: string[];
 }
 
 export const projects: Project[] = [

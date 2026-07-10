@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, ExternalLink, CheckCircle2 } from "lucide-react";
@@ -25,6 +26,24 @@ const ProjectDetail = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>{`${project.title} — Muhammad Talha`}</title>
+        <meta name="description" content={project.description} />
+        <link rel="canonical" href={`https://muhammad-talha.lovable.app/projects/${project.slug}`} />
+        <meta property="og:title" content={`${project.title} — Muhammad Talha`} />
+        <meta property="og:description" content={project.description} />
+        <meta property="og:url" content={`https://muhammad-talha.lovable.app/projects/${project.slug}`} />
+        <meta property="og:type" content="article" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "CreativeWork",
+          "name": project.title,
+          "description": project.description,
+          "url": `https://muhammad-talha.lovable.app/projects/${project.slug}`,
+          "author": { "@type": "Person", "name": "Muhammad Talha" },
+          "keywords": project.tools.join(", "),
+        })}</script>
+      </Helmet>
       <div className="container mx-auto px-6 py-16">
         <div className="max-w-4xl mx-auto">
           <Button asChild variant="ghost" className="mb-8">

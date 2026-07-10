@@ -27,8 +27,8 @@ const Hero = () => {
                 <span className="sr-only"> — Machine Learning Engineer</span>
               </h1>
 
-              <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">
-                Machine Learning Engineer specializing in Python, Scikit-learn, FastAPI, SQL, and AI-powered applications.
+              <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed">
+                Machine Learning Engineer specializing in Python, Scikit-learn, SQL, and AI-powered applications.
               </p>
             </div>
 

@@ -16,7 +16,7 @@ const AllProjects = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>All Projects — Muhammad Talha</title>
+        <title>All Projects - Muhammad Talha</title>
         <meta
           name="description"
           content="Complete list of Muhammad Talha's completed and in-progress machine learning, NLP, and data science projects."

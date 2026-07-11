@@ -32,7 +32,7 @@ export const projects: Project[] = [
   {
     slug: "clinical-risk-classification",
     title: "Clinical Risk Classification System",
-    url: "https://github.com/RanaTalha04/Heart_Disease_Prediction",
+    url: "http://github.com/RanaTalha04/Clinical-Risk-Classification-System",
     platform: "Machine Learning",
     role: "ML Engineer",
     tools: ["Python", "Scikit-learn", "Pandas", "NumPy", "Seaborn"],

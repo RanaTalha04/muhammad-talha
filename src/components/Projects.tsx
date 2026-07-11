@@ -21,7 +21,10 @@ const Projects = () => {
               </span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Showcasing data-driven solutions that transform insights into impact
+              Show-casing data-driven solutions that transform insights into impact. 
+            </p>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Click on any project to see the detail.
             </p>
             <div className="w-24 h-1 bg-gradient-primary mx-auto mt-6"></div>
           </div>
